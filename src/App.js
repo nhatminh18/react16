@@ -1,23 +1,24 @@
+/* eslint-disable no-unused-vars */
 import logo from './logo.svg';
 import './App.css';
+import CardJSX from './Component/DemoComp/CardJSX';
+import CardFunc from './Component/DemoComp/CardFunc';
+import BaiTapLayOut from './Component/BaiTapLayOut/BaiTapLayOut';
+import Databinding from './Databinding/Databinding';
+import EventHandler from './EventHandler/EventHandler';
 
+
+// Component App sẽ là nơi chứa toàn bộ giao diện của ứng dụng
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <CardFunc/>
+      <CardJSX/>
+       */}
+
+       {/* <BaiTapLayOut/> */}
+       {/* <Databinding/> */}
+       <EventHandler/>
     </div>
   );
 }
